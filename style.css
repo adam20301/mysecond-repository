@@ -1,0 +1,18 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: darkgrey;
+} 
+#li1{
+    color:red;
+   
+}
+#li2{
+    color:aquamarine;
+}
+#p1 {
+    font-family: cursive;
+}
