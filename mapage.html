@@ -1,12 +1,23 @@
 <head>
-  <title>MAYONAISSE</title>
+  <title>MAYONNAISE</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
   <h1>MES SANDWICHES PRÉFÉRÉS</h1>
-  <ol>
+  <ol id="liste">
     <li id="li1">SANDWICH AU FROMAGE</li>
     <li id="li2">SANDWICH CONFITURE</li>
   </ol>
   <p id="p1">J'aime les sandwiches</p>
+  <input type="text" placeholder="nom du sandwich" id="userSandwich">
+  <button onclick="ajouterSandwich()">ajouter sandwich</button> <br>
+  <input type="number" id="id2">
+  <button onclick="enleverSandwich()"> ENLEVER SANDWICH</button><br>
+  <input type="text" id="lien">
+  <button onclick="mettreLien()"> Mettre Lien</button><br>
+  <button onclick="couleur()">Mettre couleur</button>
+
+  
+  <script src="script.js"></script>
 </body>
+
